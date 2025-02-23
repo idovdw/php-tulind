@@ -21,6 +21,8 @@ You're now ready to compile and install the new extensions/version.
 ```bash
 git clone git@github.com:idovdw/php-tulind.git
 cd php-tulind/
+phpize
+./configure
 sudo make install
 ```
 

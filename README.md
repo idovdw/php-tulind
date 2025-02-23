@@ -2,6 +2,8 @@
 Tulind bindings
 https://tulipindicators.org/
 
+Forked from casahugo/php-tulind.
+
 # Requirements for compilation and installation
 Make sure you have the desired php, php-dev and php-cpp libraries installed and compiled with the same php version.
 Example for php v8.3:

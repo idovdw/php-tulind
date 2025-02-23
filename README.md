@@ -27,6 +27,7 @@ sudo make install
 ```
 
 # Build
+(Not required if install is successful)
 ```bash
 sudo make build
 ```

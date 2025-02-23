@@ -1,21 +1,32 @@
 # php-tulind
 Tulind bindings
+https://tulipindicators.org/
 
 # Requirements for compilation and installation
 Make sure you have the desired php, php-dev and php-cpp libraries installed and compiled with the same php version.
-e.g.:
+Example for php v8.3:
+
+When you want to install a specific version of PHP/dev, you can use Ondřej Surý’s PPA (for Ubuntu/Debian).
+```bash
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
+```
+### Install development files necessary for compiling PHP extensions
 ```sudo apt install php8.3
 sudo apt install php8.3-dev
 php -v
 ```
 Check if php version is correct, otherwise reboot or check how to use multiple php versions.
+### Install PHP-CPP
 ```cd ~
 git clone https://github.com/CopernicaMarketingSoftware/PHP-CPP.git
 cd PHP-CPP
 make
 sudo make install
 ```
-You're now ready to compile and install the new extensions/version.
+You're now ready to compile and install the new extensions/version!
 
 # Install
 ```bash

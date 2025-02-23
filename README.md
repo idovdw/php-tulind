@@ -4,15 +4,17 @@ Tulind bindings
 # Requirements for compilation and installation
 Make sure you have the desired php, php-dev and php-cpp libraries installed and compiled with the same php version.
 e.g.:
-sudo apt install php8.3
+```sudo apt install php8.3
 sudo apt install php8.3-dev
 php -v
+```
 Check if php version is correct, otherwise reboot or check how to use multiple php versions.
-cd ~
+```cd ~
 git clone https://github.com/CopernicaMarketingSoftware/PHP-CPP.git
 cd PHP-CPP
 make
 sudo make install
+```
 You're now ready to compile and install the new extensions/version.
 
 # Install
